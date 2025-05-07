@@ -6,6 +6,7 @@ clock = pygame.time.Clock()
 running = True
 background = pygame.image.load("sky.jpg")
 def draw():
+    #Wo ist der Kommentar?
     screen.blit(background, (0, 0))
 while running:
     for event in pygame.event.get():
