@@ -1,7 +1,7 @@
 import pygame
 
 pygame.init()
-screen = pygame.display.set_mode((800, 800))
+screen = pygame.display.set_mode((800, 600))
 clock = pygame.time.Clock()
 running = True
 background = pygame.image.load("sky.jpg")
